@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Abdelkader | Backend Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ── NOISE OVERLAY ── -->
+  <div class="noise"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;MA /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-tag mono">Available for work</div>
+      <h1 class="hero-name">
+        Mohamed<br/><span class="accent">Abdelkader</span>
+      </h1>
+      <p class="hero-title mono">&gt; Backend Developer &amp; .NET Specialist</p>
+      <p class="hero-desc">
+        I build robust, scalable backend systems with <span class="accent">ASP.NET Core</span> and
+        <span class="accent">SQL</span>. Clean architecture, clean code.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="code-card">
+        <div class="code-dots"><span></span><span></span><span></span></div>
+        <pre class="mono"><span class="c-blue">var</span> dev = <span class="c-blue">new</span> Developer {
+  Name   = <span class="c-green">"Mohamed"</span>,
+  Role   = <span class="c-green">"Backend Dev"</span>,
+  Stack  = <span class="c-blue">new</span>[] {
+    <span class="c-green">"ASP.NET Core"</span>,
+    <span class="c-green">"SQL Server"</span>,
+    <span class="c-green">"REST APIs"</span>
+  },
+  Status = <span class="c-green">"Open to work"</span>
+};</pre>
+      </div>
+    </div>
+    <div class="scroll-hint mono">scroll down ↓</div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="mono section-num">01.</span>
+      <h2>Skills</h2>
+      <div class="line"></div>
+    </div>
+    <div class="skills-grid">
+ 
+      <div class="skill-card" data-delay="0">
+        <div class="skill-icon"><i class="fa-brands fa-microsoft"></i></div>
+        <h3>ASP.NET Core</h3>
+        <p>Building RESTful APIs, Web Applications, and microservices with .NET ecosystem.</p>
+        <div class="skill-tags">
+          <span>Web API</span><span>MVC</span><span>Entity Framework</span><span>LINQ</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="100">
+        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+        <h3>SQL & Databases</h3>
+        <p>Designing and optimizing relational databases, writing complex queries and stored procedures.</p>
+        <div class="skill-tags">
+          <span>SQL Server</span><span>T-SQL</span><span>Stored Procs</span><span>Indexing</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="200">
+        <div class="skill-icon"><i class="fa-solid fa-plug"></i></div>
+        <h3>REST APIs</h3>
+        <p>Designing clean, documented and versioned APIs following REST principles and best practices.</p>
+        <div class="skill-tags">
+          <span>Swagger</span><span>JWT Auth</span><span>Postman</span><span>HTTP</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="300">
+        <div class="skill-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Clean Architecture</h3>
+        <p>Applying patterns like Repository, Unit of Work, and Dependency Injection for maintainable code.</p>
+        <div class="skill-tags">
+          <span>Repository</span><span>SOLID</span><span>DI</span><span>Design Patterns</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="400">
+        <div class="skill-icon"><i class="fa-solid fa-display"></i></div>
+        <h3>ASP.NET MVC</h3>
+        <p>Building full-stack web applications using the MVC pattern with Razor views, controllers, and model binding.</p>
+        <div class="skill-tags">
+          <span>Razor Views</span><span>Controllers</span><span>Routing</span><span>Model Binding</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="500">
+        <div class="skill-icon"><i class="fa-brands fa-bootstrap"></i></div>
+        <h3>HTML & Bootstrap</h3>
+        <p>Crafting responsive, mobile-first UI layouts with semantic HTML5 and Bootstrap components.</p>
+        <div class="skill-tags">
+          <span>HTML5</span><span>Bootstrap 5</span><span>Responsive</span><span>Grid System</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="600">
+        <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Authentication & Authorization</h3>
+        <p>Implementing secure login systems using ASP.NET Identity, JWT tokens, and role-based access control.</p>
+        <div class="skill-tags">
+          <span>ASP.NET Identity</span><span>JWT</span><span>Roles & Claims</span><span>OAuth</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:83%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="700">
+        <div class="skill-icon"><i class="fa-solid fa-envelope-circle-check"></i></div>
+        <h3>Email & OTP Services</h3>
+        <p>Building secure email confirmation flows and OTP-based password recovery using SMTP and token generation.</p>
+        <div class="skill-tags">
+          <span>SMTP</span><span>Confirm Email</span><span>OTP</span><span>Forget Password</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div>
+      </div>
+ 
+      <div class="skill-card" data-delay="800">
+        <div class="skill-icon"><i class="fa-solid fa-credit-card"></i></div>
+        <h3>Payment Integration</h3>
+        <p>Integrating payment gateways with webhook support, order tracking, and secure transaction handling.</p>
+        <div class="skill-tags">
+          <span>Stripe</span><span>Webhooks</span><span>Orders</span><span>Transactions</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="mono section-num">02.</span>
+      <h2>Projects</h2>
+      <div class="line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card" data-delay="0">
+        <div class="project-num mono">01</div>
+        <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
+        <h3>ToDoList</h3>
+        <p>A task management application with full CRUD operations, user authentication, and task categorization built with ASP.NET Core.</p>
+        <div class="project-tags">
+          <span>ASP.NET Core</span><span>SQL Server</span><span>REST API</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MoSayed335/ToDoList" class="proj-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card featured" data-delay="100">
+        <div class="project-num mono">02</div>
+        <div class="featured-badge">Featured</div>
+        <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h3>E-Commerce</h3>
+        <p>Full-featured e-commerce backend with product management, cart, orders, payment integration, and admin dashboard.</p>
+        <div class="project-tags">
+          <span>ASP.NET Core</span><span>SQL Server</span><span>Stripe</span><span>JWT</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MoSayed335/Ecommerce" class="proj-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-delay="200">
+        <div class="project-num mono">03</div>
+        <div class="project-icon"><i class="fa-solid fa-film"></i></div>
+        <h3>Cinema System</h3>
+        <p>A cinema booking system with seat reservation, movie scheduling, and ticket management using a relational database model.</p>
+        <div class="project-tags">
+          <span>ASP.NET Core</span><span>SQL Server</span><span>MVC</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MoSayed335/Cinema" class="proj-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-delay="300">
+        <div class="project-num mono">04</div>
+        <div class="project-icon"><i class="fa-solid fa-user-graduate"></i></div>
+        <h3>Student Attendance</h3>
+        <p>A student attendance tracking system with real-time reporting, class management, and automated statistics generation.</p>
+        <div class="project-tags">
+          <span>ASP.NET Core</span><span>SQL Server</span><span>Reports</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/MoSayed335/student_attendance" class="proj-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="mono section-num">03.</span>
+      <h2>Contact</h2>
+      <div class="line"></div>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-left">
+        <h3>Let's work together</h3>
+        <p>Have a project in mind or looking for a backend developer? I'd love to hear from you.</p>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>mo.sayed2037@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>www.linkedin.com/in/mohamed-sayed-420223359</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-github"></i>
+            <span>github.com/MoSayed335</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" id="nameInput" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="emailInput" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea id="messageInput" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <div id="formMsg" class="form-msg"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span class="mono">&lt;MA /&gt;</span>
+    <p>© 2025 Mohamed Abdelkader · Built with passion</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
